@@ -1,7 +1,10 @@
 # LLM-Notebook
 
 LLM-Notebook is a powerful and user-friendly interface for interacting with large language models through OpenRouter's API. It provides a collaborative writing space with real-time token counting, customizable sampling parameters, and an intuitive interface for managing your writing sessions.
+
 The goal is to reproduce the functionality of text-generation-webui's notebook in a lightweight, simple package, using an online API service rather than self-hosting the models.
+
+This project is in early development. A native Android app with identical functionality is also in the works (https://github.com/Mithadon/LLM-Notebook-Android).
 
 ## Features
 
