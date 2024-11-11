@@ -1,10 +1,11 @@
 # LLM-Notebook
 
 LLM-Notebook is a powerful and user-friendly interface for interacting with large language models through OpenRouter's API. It provides a collaborative writing space with real-time token counting, customizable sampling parameters, and an intuitive interface for managing your writing sessions.
+The goal is to reproduce the functionality of text-generation-webui's notebook in a lightweight, simple package, using an online API service rather than self-hosting the models.
 
 ## Features
 
-- **Collaborative Writing Space**: A clean, distraction-free interface for writing and generating text
+- **Collaborative Writing Space**: A clean, distraction-free interface for writing and generating text together with LLMs
 - **Real-time Token Counter**: Keep track of your token usage as you write
 - **Multiple Model Support**: Access various language models through OpenRouter's API
 - **Customizable Parameters**: Fine-tune generation with temperature, top-p, min-p, top-k, and max tokens
@@ -44,8 +45,8 @@ pip install gradio requests tiktoken
 ## Usage
 
 1. Run the application:
-   - On Windows: Double-click `run.bat`
-   - On Linux/Mac: Execute `./run.sh`
+   - On Windows: Double-click `run-windows.bat`
+   - On Linux/Mac: Execute `./run-linux.sh`
 
 2. Open your web browser and navigate to `http://localhost:7860` (or your configured port)
 
@@ -66,7 +67,7 @@ The application automatically creates a `user_settings.json` file on first run w
 
 ## License
 
-MIT License
+None
 
 ## Contributing
 
